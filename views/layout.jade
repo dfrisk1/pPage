@@ -2,6 +2,10 @@ doctype html
 html
   head
     title= title
+    link(rel='stylesheet', href='/css/bootstrap.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+    //link(rel="stylesheet" href="/css/bootstrap-theme.min.css")
+  //  script(src="/js/bootstrap.min.js")
+body
+    .container.content
+      block content
