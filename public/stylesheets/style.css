@@ -1,1 +1,13 @@
-body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}a{color:#00B7FF}
+h1 {
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    line-height: 1.1em;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.contact-info {
+    width: 25%;
+}
